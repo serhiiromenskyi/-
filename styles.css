@@ -1,0 +1,53 @@
+body {font-family:Calibri; line-height: 1.5; }
+
+
+.block1 {font-size: 28px; font-weight: 600; margin-left: 40px; margin-top: 30px; margin-bottom: 10px;}
+.block2 {font-size: 28px; font-weight: 600; margin-left: 40px; margin-top: 15px; margin-bottom: 10px;}
+.block3 {font-size: 28px; font-weight: 600; margin-left: 40px; margin-top: 70px; margin-bottom: 10px;}
+.block4 {font-size: 28px; font-weight: 600; margin-left: 40px; margin-top: 70px; margin-bottom: 10px;}
+
+
+.block_Макронутриенты {font-size: 20px; font-weight: 400; display: none; margin-left: 100px; margin-top: 10px;}
+#Макронутриенты:checked ~ .block_Макронутриенты {display: block;} 
+
+
+.block_жиры {font-size: 16px; font-weight: 400; display: none; margin-left: 100px; margin-top: 10px;}
+#жиры:checked ~ .block_жиры {display: block;}
+
+.block_Омега3 {line-height: 1; display: none;  width: 600px; margin-left: 100px; margin-top: 10px;}
+#Омега3:checked ~ .block_Омега3 {display: block;}
+
+
+
+.block_Микронутриенты {margin-top: 10px; display: none; font-weight: 400;font-size: 20px;margin-left: 100px;}
+#Микронутриенты:checked ~ .block_Микронутриенты {display: block;}
+
+.block_Витамины { margin-top: 10px; width: 100px; display: none;font-weight: 400;font-size: 16px;margin-left: 100px;}
+#Витамины:checked ~ .block_Витамины {display: block;}
+
+.block_ВитаминК { line-height: 1; margin-top: 10px; display: none;font-weight: 400;font-size: 16px;margin-left: 100px;width: 600px;}
+#ВитаминК:checked ~ .block_ВитаминК {display: block;}
+
+.block_ВитаминC {line-height: 1;margin-top: 10px; display: none;font-weight: 400;font-size: 16px;margin-left: 100px;width: 600px;}
+#ВитаминC:checked ~ .block_ВитаминC {display: block;}
+
+
+
+.block_Клетчатка {width: 600px; line-height: 1; margin-top: 10px; display: none; font-weight: 400;font-size: 16px;margin-left: 100px;}
+#Клетчатка:checked ~ .block_Клетчатка {display: block;}
+
+
+
+
+
+.block_Микробиота {margin-top: 10px; display: none; font-weight: 400;font-size: 20px;margin-left: 100px;}
+#Микробиота:checked ~ .block_Микробиота {display: block;}
+
+.block_Фирмикуты {line-height: 1;margin-top: 10px; width: 600px; display: none;font-weight: 400;font-size: 16px;margin-left: 100px;}
+#Фирмикуты:checked ~ .block_Фирмикуты {display: block;}
+
+.block_Бактероидеты {line-height: 1;margin-top: 10px; width: 600px; display: none;font-weight: 400;font-size: 16px;margin-left: 100px;}
+#Бактероидеты:checked ~ .block_Бактероидеты {display: block;}
+
+.block_текст {margin-left: 100px; margin-top: 10px; width: 600px; font-weight: 400;font-size: 16px;line-height: 1;}
+#Бактероидеты:checked ~ .block_Бактероидеты {display: block;}
